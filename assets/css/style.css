@@ -147,8 +147,9 @@ body {
   }
 }
 .resume-container {
-  background-color: #7f298c;
-  min-height: 100%;
+  background: url(background.jpg) no-repeat;
+  background-size: 100%;	
+  height: 100%;
   padding-top: 3.3%;
   overflow: auto;
 }
@@ -164,7 +165,7 @@ body {
   border-right: 1px solid #D2D2D2;
 }
 .resume-container .resume-box .basic-profile .baci-cc {
-  background-color: #7f298c;
+  background-color: #29378c;
 }
 @media screen and (max-width: 991px) {
   .resume-container .resume-box .basic-profile .baci-cc {
