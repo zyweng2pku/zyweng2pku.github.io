@@ -165,7 +165,7 @@ body {
   border-right: 1px solid #D2D2D2;
 }
 .resume-container .resume-box .basic-profile .baci-cc {
-  background-color: #29378c;
+  background-color: white;
 }
 @media screen and (max-width: 991px) {
   .resume-container .resume-box .basic-profile .baci-cc {
@@ -175,8 +175,8 @@ body {
 .resume-container .resume-box .basic-profile .basic-detail {
   padding: 10px;
   text-align: center;
-  background-color: #7f298c;
-  color: #FFF;
+  background-color: white;
+  color: black;
   padding-bottom: 15px;
 }
 .resume-container .resume-box .basic-profile .basic-detail h2 {

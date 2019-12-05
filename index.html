@@ -12,17 +12,50 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Zhenyu Weng's Homepage 翁振宇的个人主页</title>
+	<style type="text/css">
+	.modal-dialog {
+	max-width: 1000px;
+	}
+	</style>
+	<script>
+		
+			function loadBigImg(src){
+				document.getElementById('bigImg').src = src
+				$('#exampleModal').modal()
+			}
+			
+	
+		</script>
 </head>
 
 
 
 <body>
-
+	
     <div id="home" class="container-fluid resume-container">
 
         <!--  ************************* Container Starts Here ************************** -->
           
           <div class="container">
+		  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="" id="bigImg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
               <div class="row">
                   <div class="col-xl-10 col-lg-12 resume-box">
                       <div class="row">
@@ -73,7 +106,8 @@
 										  
 										  <h5>News</h5>
 										  <p>Two papers are accepted by AAAI2020</p>
-										  
+										  <p>A paper is accepted by PR</p>
+										  										  
 										  </br>
 										  
 										  <h5>Honors and Awards</h5>
@@ -184,36 +218,49 @@
 									  
                                       <div class="sec-title">
                                           <h4>Journal</h4>
-                                      </div>									  
+                                      </div>							
+				      <h5>2019</h5>									  
                                       <div class="service no-margin row">
                                           <div class="col-sm-12 col-10">
-                                              <h6>[ 1 ] A Fast Online Spherical Hashing Method</h6> 
+										  
+                                              <h6>[ 1 ] Concatenation Hashing: A Relative Position Preserving Method</h6>
+											  <h6>&nbsp &nbsp &nbsp &nbsp for Learning Binary Codes</h6>
+											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp <b>Zhenyu Weng</b>, Yuesheng Zhu</p>
+											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Pattern Recognition(Accepted for publication)</p>
+										  
+                                              <h6>[ 2 ] A Disocllusion Inpainting Framework for Depth-Based View Synthesis</h6>
+											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Guibo Luo, Yuesheng Zhu, <b>Zhenyu Weng</b>, Zhaotian Li</p>
+											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp IEEE Transaction on Pattern Recognition and Machine Intelligence. </p>
+											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Doi: 10.1109/TPAMI.2019.2899837</p>
+
+										  
+                                              <h6>[ 3 ] A Fast Online Spherical Hashing Method</h6> 
 											  <h6>&nbsp &nbsp &nbsp &nbsp Based on Data Sampling for Large Scale Image Retrieval</h6>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp<b>Zhenyu Weng</b>, Yuesheng Zhu, Yinhe Lan, Long-Kai Huang</p>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Neurocomputing, 2019, 364: 209-218</p>
 						                     <!--                     <p>&nbsp &nbsp &nbsp &nbsp &nbsp [<a href = "https://aaai.org/ojs/index.php/AAAI/article/view/4896" target = '_blank'>PDF</a>]
 											                                   [<a href = "https://arxiv.org/abs/1901.10185"  target = '_blank'>arXiv</a>] 
 												                           [<a href = "https://github.com/lmbxmu/mycode/tree/master/2019AAAI_BSODH"  target = '_blank'>MATLAB CODES</a>]</p> -->
-                                              <h6>[ 2 ] Online Supervised Sketching Hashing</h6>  
+                                              <h6>[ 4 ] Online Supervised Sketching Hashing</h6>  
 											  <h6>&nbsp &nbsp &nbsp &nbsp for Large-Scale Image Retrieval</h6>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp<b>Zhenyu Weng</b>, Yuesheng Zhu</p>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp IEEE Access, 2019, 7: 88369-88379</p>
 						                     <!--                     <p>&nbsp &nbsp &nbsp &nbsp &nbsp [<a href = "https://aaai.org/ojs/index.php/AAAI/article/view/4896" target = '_blank'>PDF</a>]
 											                                   [<a href = "https://arxiv.org/abs/1901.10185"  target = '_blank'>arXiv</a>] 
 												                           [<a href = "https://github.com/lmbxmu/mycode/tree/master/2019AAAI_BSODH"  target = '_blank'>MATLAB CODES</a>]</p> -->
-                                              <h6>[ 3 ] Asymmetric Hashing With Multi-Bit Quantization for Image Retrieval</h6>
+																		   
+                                          </div>									  							  
+                                      </div>																		   
+																		   
+				      <h5>2016</h5>									  
+                                      <div class="service no-margin row">
+                                          <div class="col-sm-12 col-10">
+																		   
+                                              <h6>[ 5 ] Asymmetric Hashing With Multi-Bit Quantization for Image Retrieval</h6>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp<b>Zhenyu Weng</b>, Ziqiang Sun, Yuesheng Zhu</p>
 											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Neurocomputing, 2016, 207: 71-77</p>
 
-                                              <h6>[ 4 ] A Disocllusion Inpainting Framework for Depth-Based View Synthesis</h6>
-											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Guibo Luo, Yuesheng Zhu, <b>Zhenyu Weng</b>, Zhaotian Li</p>
-											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp IEEE Transaction on Pattern Recognition and Machine Intelligence. </p>
-											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Doi: 10.1109/TPAMI.2019.2899837</p>
 
-                                              <h6>[ 5 ] Concatenation Hashing: A Relative Position Preserving Method</h6>
-											  <h6>&nbsp &nbsp &nbsp &nbsp for Learning Binary Codes</h6>
-											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp <b>Zhenyu Weng</b>, Yuesheng Zhu</p>
-											  <p>&nbsp &nbsp &nbsp &nbsp &nbsp Pattern Recognition(Under Review, Major Revision)</p>
 
                                               
 											  
@@ -260,20 +307,25 @@
                                    <!--  ************************* Portfolio Tab Starts Here ************************** -->
                                    <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="contact-tab">
                                       <div class="row no-margin gallery">
-                                          <div class="col-sm-4">
-                                              <img src="assets/images/gallery/0001.jpg" alt="">
+									  
+									      <div class="col-sm-12">
+                                              <img src="assets/images/gallery/0003.jpg" alt="" onclick="loadBigImg('assets/images/gallery/0003.jpg')">
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <img src="assets/images/gallery/0001.jpg" alt="" onclick="loadBigImg('assets/images/gallery/0001.jpg')">
                                           </div>
                                           <div class="col-sm-4">
-                                              <img src="assets/images/gallery/0002.jpg" alt="">
+                                              <img src="assets/images/gallery/0002.jpg" alt="" onclick="loadBigImg('assets/images/gallery/0002.jpg')">
                                           </div>
-                                          <div class="col-sm-4">
-                                              <img src="assets/images/gallery/0003.jpg" alt="">
-                                          </div>
+
                                           <div class="col-sm-4">
                                               <img src="assets/images/gallery/0004.jpg" alt="">
                                           </div>
                                           <div class="col-sm-4">
                                               <img src="assets/images/gallery/0005.jpg" alt="">
+                                          </div>										  
+                                          <div class="col-sm-4">
+                                              <img src="assets/images/gallery/0006.jpg" alt="">
                                           </div>										  
                                       </div>
                                   </div>
@@ -331,6 +383,7 @@
         <script src="assets/js/popper.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/script.js"></script>
+		
 </body>
 
 </html>
